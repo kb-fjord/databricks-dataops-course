@@ -16,4 +16,19 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC The upstream tables are:
+# MAGIC
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.borough_population
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.revenue_by_borough
+# MAGIC * training.taxinyc_trips.yellow_taxi_trips_curated_sample
+# MAGIC
+# MAGIC The downstream tables are:
+# MAGIC
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.borough_population
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.revenue_by_borough
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.revenue_by_tripmonth
+# MAGIC * acme_transport_taxinyc.dev_janisourander_featgh1019kajaani_bb599063_revenue.revenue_per_inhabitant
+
+# COMMAND ----------
+
+

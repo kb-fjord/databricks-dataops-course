@@ -47,7 +47,7 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC Job is the defined task, a job run is a single instance of the defined task.
 
 # COMMAND ----------
 
@@ -60,7 +60,10 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC * DEV: 
+# MAGIC     * acme_transport_taxinyc_prep_dev_janisourander_featgh1019kajaani_bb599063
+# MAGIC * PRD: 
+# MAGIC     * acme_transport_taxinyc_prep_prod_featgh1019kajaani_bb599063
 
 # COMMAND ----------
 
@@ -72,14 +75,15 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
-
-# COMMAND ----------
-
-# MAGIC %md
+# MAGIC In the YAML file: orgs/acme/domains/transport/projects/taxinyc/flows/prep/revenue/deployment.yml
 # MAGIC
-# MAGIC Answer here...
-
-# COMMAND ----------
-
-
+# MAGIC <br>
+# MAGIC
+# MAGIC ```yaml
+# MAGIC tasks:
+# MAGIC - task_key: revenue_by_borough
+# MAGIC   run_if: ALL_SUCCESS
+# MAGIC   existing_cluster_name: shared-job-cluster # <== HERE
+# MAGIC ```
+# MAGIC
+# MAGIC It gets the dev/prod suffix later.
