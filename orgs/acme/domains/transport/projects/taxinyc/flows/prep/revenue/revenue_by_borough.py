@@ -24,8 +24,8 @@ from libs.dbname import dbname
 
 # COMMAND ----------
 
-git_commit = job_param(dbutils=dbutils, param="git_commit")
-print("git_commit: " + repr(git_commit))
+# git_commit = job_param(dbutils=dbutils, param="git_commit")
+# print("git_commit: " + repr(git_commit))
 
 # COMMAND ----------
 

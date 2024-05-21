@@ -60,7 +60,12 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC acme_transport_taxinyc_prep_dev_kashifnawaz77_featghMohgilgit_bb599063 
+# MAGIC first is the location part 'acme_transport_taxinyc_prep'
+# MAGIC second is the dev 'env'
+# MAGIC third my username 'kashifnawaz77'
+# MAGIC and then the github branch 'featghMohgilgit'
+# MAGIC last part is git commit 'bb599063'
 
 # COMMAND ----------
 
