@@ -48,6 +48,10 @@
 # MAGIC %md
 # MAGIC
 # MAGIC Answer here...
+# MAGIC
+# MAGIC A job is a script or set of commands that can be run repeatedly to accomplish a task.
+# MAGIC
+# MAGIC A job run is a specific execution of the job.
 
 # COMMAND ----------
 

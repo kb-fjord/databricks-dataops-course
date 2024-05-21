@@ -17,3 +17,9 @@
 # MAGIC %md
 # MAGIC
 # MAGIC Answer here...
+# MAGIC
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_revenue.borough_population
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_revenue.revenue_by_borough
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_revenue.revenue_by_tripmonth
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_revenue.revenue_per_inhabitant
+# MAGIC

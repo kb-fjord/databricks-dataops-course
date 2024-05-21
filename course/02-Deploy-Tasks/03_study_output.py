@@ -17,3 +17,13 @@
 # MAGIC %md
 # MAGIC
 # MAGIC Answer here...
+# MAGIC
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_orienteering_6b183c5a_revenue.revenue_per_inhabitant
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_orienteering_6b183c5a_revenue.revenue_by_borough
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_orienteering_6b183c5a_revenue.revenue_by_tripmonth
+# MAGIC acme_transport_taxinyc.dev_jasondedwards_orienteering_6b183c5a_revenue.revenue_per_inhabitant
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC

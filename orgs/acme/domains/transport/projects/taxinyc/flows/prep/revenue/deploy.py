@@ -66,7 +66,7 @@ response
 
 # COMMAND ----------
 
-run_job(dbutils=dbutils, job_id=response['response']['job_id'])
+run_job_by_name(dbutils=dbutils, job_name=prod_response['job_name'])
 
 # COMMAND ----------
 
