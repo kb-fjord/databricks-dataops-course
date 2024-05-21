@@ -77,9 +77,10 @@ run_job(dbutils=dbutils, job_id=response['response']['job_id'])
 
 # COMMAND ----------
 
-# os.environ['PIPELINE_ENV'] = 'prod'
-# # Deploy jobs based on deployment.yml, in dev mode
-# prod_response = autojob(env="prod")
+import os
+os.environ['PIPELINE_ENV'] = 'prod'
+# Deploy jobs based on deployment.yml, in dev mode
+prod_response = autojob(env="prod")
 
 # COMMAND ----------
 
@@ -89,4 +90,4 @@ run_job(dbutils=dbutils, job_id=response['response']['job_id'])
 
 # COMMAND ----------
 
-# run_job(dbutils=dbutils, job_id=prod_response['response']['job_id'])
+run_job(dbutils=dbutils, job_id=prod_response['response']['job_id'])
